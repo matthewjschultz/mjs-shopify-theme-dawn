@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "MJS.ART Store",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Original Art, Prints, Apparel, Stickers, and MORE!",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/store-header.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "b6c246fd-3bde-40e5-9c04-8629e4268896": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16619872813275__b6c246fd-3bde-40e5-9c04-8629e4268896-166742571275798968-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "framed-original-art"
+          }
+        },
+        "62271675-ed9c-4f63-b9ee-c732a1602962": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "unframed-original-art"
+          }
+        },
+        "template--16619872813275__b6c246fd-3bde-40e5-9c04-8629e4268896-166742571275798968-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "framed-prints"
+          }
+        },
+        "1ecb7ea0-04ff-4be2-b1e9-39b4cca6a254": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "poster-prints"
+          }
+        },
+        "e2547e3f-9dd3-456a-aaf9-e8887f3965ee": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "canvas-prints"
+          }
+        },
+        "template--16619872813275__b6c246fd-3bde-40e5-9c04-8629e4268896-166742571275798968-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tools"
+          }
+        },
+        "9b49c843-f1f3-4613-8634-ad317a489fff": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "d4b23dc0-8303-4a98-9588-86d336dece05": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "stickers"
+          }
+        }
+      },
+      "block_order": [
+        "template--16619872813275__b6c246fd-3bde-40e5-9c04-8629e4268896-166742571275798968-0",
+        "62271675-ed9c-4f63-b9ee-c732a1602962",
+        "template--16619872813275__b6c246fd-3bde-40e5-9c04-8629e4268896-166742571275798968-1",
+        "1ecb7ea0-04ff-4be2-b1e9-39b4cca6a254",
+        "e2547e3f-9dd3-456a-aaf9-e8887f3965ee",
+        "template--16619872813275__b6c246fd-3bde-40e5-9c04-8629e4268896-166742571275798968-2",
+        "9b49c843-f1f3-4613-8634-ad317a489fff",
+        "d4b23dc0-8303-4a98-9588-86d336dece05"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "b6c246fd-3bde-40e5-9c04-8629e4268896"
+  ]
+}
